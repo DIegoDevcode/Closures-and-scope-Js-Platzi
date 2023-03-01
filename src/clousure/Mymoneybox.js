@@ -10,7 +10,7 @@ function moneyBox(){
     let saveCoins = 0;
     function countCoins(coins){
       saveCoins += coins;
-      console.log('Moneybox: $$(saveCoins)')   
+      console.log('Moneybox: $${saveCoins}')   
     }
     return countCoins;
 }
